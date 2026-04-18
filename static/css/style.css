@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7f9;
+    /* This creates the yellow bar at the top of the browser */
+    border-top: 10px solid #fbc02d;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* The White Card Container */
+.card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border: 1px solid #e0e0e0;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.15rem;
+    margin-bottom: 35px;
+    color: #444;
+}
+
+/* Centering Labels and Inputs */
+.form-group {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+    font-size: 1rem;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #555;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Focus state for inputs */
+select:focus, input:focus {
+    border-color: #007bff;
+}
+
+/* The Blue Button */
+.predict-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.predict-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Placeholder styling */
+::placeholder {
+    color: #999;
+    opacity: 1;
+}
